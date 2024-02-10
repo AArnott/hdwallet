@@ -1,6 +1,6 @@
 [package]
-name = "hdwallet"
-version = "0.4.1"
+name = "hdwallet-zcash"
+version = "0.4.2"
 authors = ["jjy <jjyruby@gmail.com>"]
 edition = "2021"
 license = "MIT"
@@ -8,11 +8,6 @@ repository = "https://github.com/jjyr/hdwallet"
 keywords = [ "hdwallet", "BIP32", "wallet", "bitcoin", "crypto" ]
 readme = "README.md"
 description = "Hierarchical deterministic wallet (BIP-32)"
-
-[workspace]
-members = [
-  "hdwallet-bitcoin"
-]
 
 [dependencies]
 secp256k1 = "0.26"

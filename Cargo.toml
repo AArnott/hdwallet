@@ -12,7 +12,7 @@ description = "Hierarchical deterministic wallet (BIP-32)"
 [dependencies]
 secp256k1 = "0.26"
 rand_core = "0.6.4"
-ring = "0.16"
+ring = "0.17.7"
 lazy_static = "1.4"
 thiserror = "1.0.38"
 
